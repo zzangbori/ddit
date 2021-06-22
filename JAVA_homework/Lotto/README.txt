@@ -30,5 +30,5 @@
 === Lotto.java END (with. LottoShop.java) ===
 
 === ISSUE LIST ===
-21-06-22 : Lotto.java 오류수정 : matchLotto[j] -> bonusNumber
+21-06-22 : Lotto.java 68줄 오류수정 : matchLotto[j] -> bonusNumber
 ==================
