@@ -46,7 +46,7 @@ public class LottoShop {
 					flag = false;
 			}
 		} while (flag);
-		return 0;
+		return result;
 	}
 
 }
