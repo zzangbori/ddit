@@ -38,12 +38,13 @@ public class LottoShop {
 
 	public static int getBonusNumber(int[] matchLotto) {
 		int result = 0;
-		boolean flag = true;
+		boolean flag;
 		do {
+			flag = false;
 			result = rnd.nextInt(45) + 1;
 			for (int i = 0; i < matchLotto.length; i++) {
-				if (matchLotto[i] != result)
-					flag = false;
+				if (matchLotto[i] == result)
+					flag = true;
 			}
 		} while (flag);
 		return result;
