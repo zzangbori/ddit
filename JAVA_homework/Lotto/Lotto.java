@@ -65,7 +65,7 @@ public class Lotto {
 					}
 					if(matchCount == 5) {
 						for(int j = 0; j < matchLotto.length; j++) {
-							if(myLotto[i][j] == matchLotto[j]) bonusMatch = true;
+							if(myLotto[i][j] == bonusNumber) bonusMatch = true;
 						}
 					}
 					System.out.println("] => "+rewordCheck(matchCount, bonusMatch));
