@@ -28,3 +28,7 @@
 원하는 메뉴 선택 >> 
 
 === Lotto.java END (with. LottoShop.java) ===
+
+=== ISSUE LIST ===
+21-06-22 : Lotto.java 오류수정 : matchLotto[j] -> bonusNumber
+==================
