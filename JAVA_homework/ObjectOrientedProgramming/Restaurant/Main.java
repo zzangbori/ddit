@@ -74,6 +74,18 @@ public class Main {
 					System.out.println();
 				}
 				break;
+			case 3:
+				if(tOrder.length == 0) {
+					System.out.println("오늘은 판매가 없습니다...");
+					break;
+				}
+				System.out.println("---------------------- 오늘판매 ----------------------");
+				for(int i = 0; i < tOrder.length; i++) {
+					tOrder[i].showOrder();
+				}
+				System.out.println("------------------------------------------------------");
+				
+				break;
 			default:
 			case 0:
 				System.out.println("영업을 종료합니다.");
