@@ -63,7 +63,7 @@ public class Main {
 						break;
 					case 3:
 						if (menu.showMenu() > 0) {
-							System.out.println("삭제할 메뉴 번호를 입력해 주세요 >> ");
+							System.out.print("삭제할 메뉴 번호를 입력해 주세요 >> ");
 							menu.removeMenu(sc.nextInt() - 1);
 							menu.showMenu();
 						}
