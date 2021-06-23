@@ -37,8 +37,12 @@ public class Main {
 					System.out.println("---------------------- 주문한 메뉴 ----------------------");
 					order.showOrder();
 					System.out.println("---------------------------------------------------------");
-					tOrder = new Order[tOrder.length + 1];
-					tOrder[tOrder.length - 1] = order;
+					Order[] tmp = new Order[tOrder.length + 1];
+					for (int i = 0; i < tOrder.length; i++) {
+						tmp[i] = tOrder[i];
+					}
+					tmp[tOrder.length - 1] = order;
+					tOrder = tmp;
 				} else {
 					System.out.println("주문을 취소합니다.");
 				}
@@ -75,16 +79,16 @@ public class Main {
 				}
 				break;
 			case 3:
-				if(tOrder.length == 0) {
+				if (tOrder.length == 0) {
 					System.out.println("오늘은 판매가 없습니다...");
 					break;
 				}
 				System.out.println("---------------------- 오늘판매 ----------------------");
-				for(int i = 0; i < tOrder.length; i++) {
+				for (int i = 0; i < tOrder.length; i++) {
 					tOrder[i].showOrder();
 				}
 				System.out.println("------------------------------------------------------");
-				
+
 				break;
 			default:
 			case 0:
