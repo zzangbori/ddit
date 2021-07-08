@@ -9,7 +9,7 @@ public class DditTest {
 		// [DditTest.java, Ddit.java, ClassRoom.java, Student.java, Teacher.java, Human.java, NotTeacherException.java, NotConfirmException.java]
 		// 3. 업로드되어있는 클래스를 모두 이용해야합니다.
 		// 4. DditTest.java 내 main메서드를 제외한 메서드의 내용을 작성합니다.
-		// 5. DditTest.java 파일을 실행하여 README.txt 와 동일한 출력 결과를 확인합니다. (주석제외)
+		// 5. DditTest.java 파일을 실행하여 README.text 와 동일한 출력 결과를 확인합니다. (주석제외)
 		//
 		// ++ 제출 방법 ++
 		// 1. 패키지내의 파일 모두를 담임 메일로 보냅니다.
